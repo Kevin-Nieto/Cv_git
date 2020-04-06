@@ -1,0 +1,241 @@
+@media all and (max-width: 1024px) /* Responsive */
+{
+	#block1
+	{
+		display: flex;
+		margin: auto;
+		font-size: 80%;
+	}
+	.info2
+	{
+		margin-bottom: 300px;
+	}
+	
+}
+
+
+#block1   /* Centrer tout mon block */
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-left: solid 1px rgb(202,202,202);
+	border-top: solid 1px rgb(202,202,202);
+	border-bottom: solid 1px rgb(202,202,202);
+	border-right: solid 1px rgb(202,202,202);
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-bottom: -8px;
+	margin-right: -8px;
+}
+
+.element1    /* Ma page principale */
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+}
+
+#titre_principal h1 /* Titre en-tête */
+{
+	display: flex;
+	margin: auto;
+	padding-left: 70px;
+	padding-top: 65px;
+	font-size: 5em;
+}
+
+.texteenjaune
+{
+	color: rgb(257,202,7);
+	margin-right: 10px;
+}
+
+#titre_principal h3
+{
+	display: flex;
+	margin: auto;
+	padding-left: 75px;
+	font-size: 2em;
+}
+
+u
+{
+	text-decoration: underline rgb(257,202,7);
+}
+
+.titre1 /* Grands titres Formation */
+{
+	display: flex;
+	padding-left: 60px;
+	border-bottom: solid 1px rgb(257,202,7);
+	border-bottom-width: 3px;
+	margin: 70px 50px 10px;
+	font-size: 1.2em;
+}
+
+.titre1 h2
+{
+	padding-left: 30px;
+}
+
+.puce1 li  /* Puce sous catégorie titre1 */
+{
+	list-style: none;
+}
+.puce1 li::before
+{
+	content: "\25E6"; color: rgb(257,202,7);
+	font-size: 1.7em;
+}
+
+.puce1 /* Puce sous catégorie titre1 */
+{
+	display: flex;
+	position: absolute;
+	margin-left:  50px;
+	font-size: 1.3em; 
+}
+.puce1 p
+{
+	display: flex;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+.op1  /* Sous catégorie des titres */
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	margin-left: 300px;
+	margin-right: 50px;
+	margin-top: 25px;
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+
+.op1 strong
+{
+	font-size: 1.3em;
+}
+
+.puce2 li  /* Puce sous catégorie 2 */
+{
+	list-style: none;
+}
+.puce2 li::before
+{
+	content: "\2022"; color: rgb(257,202,7);
+	font-size: 1.7em;
+}
+
+.puce2
+{
+	display: flex;
+	position: absolute;
+	margin-left:  50px;
+	margin-top: 25px;
+	font-size: 1.3em;
+}
+.puce2 p
+{
+	display: flex;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+.puce3 li  /* 1ère puce sous catégorie 2 */
+{
+	list-style: none;
+}
+.puce3 li::before
+{
+	content: "\2022"; color: rgb(257,202,7);
+	font-size: 1.7em;
+}
+
+.puce3 /* 1ère puce sous catégorie 2 */
+{
+	display: flex;
+	position: absolute;
+	margin-left:  50px;
+	margin-top: 0px;
+	font-size: 1.3em;
+}
+.puce3 p
+{
+	display: flex;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+
+.pied  /* Pied du site */
+{
+	display: flex;
+	text-align: justify;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 40px;
+	font-size: 1.2em;
+}
+
+.element2 /* Mon menu à gauche du site */
+{
+	width: 900px;
+	border-right: solid 1px rgb(202,202,202);
+	background-color: rgb(254,202,7);
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
+
+#photo /* Photo de profil */
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#titre2 h2 /* Les titres de mon menu à gauche */
+{
+	display:flex;
+	color: rgb(257,202,7);
+	background-color: rgb(67,67,67);
+	justify-content: center;
+	font-size: 2.2em;
+}
+
+.info /* Contact */
+{
+	display: flex;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 1.2em;
+
+}
+
+.info2 /* A propos de moi */
+{
+	display: flex;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	padding-bottom: 600px;
+	font-size: 1.2em;
+}
+
+#titre2 figure /* Icone loisirs */
+{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
